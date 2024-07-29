@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Coco Healthcare Assistant Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of our Project Coco Health Assistant
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Coco Healthcare Assistant application aims to address the critical healthcare challenges faced by many individuals in our province, where accessing timely medical care is difficult due to a shortage of family doctors and long wait times at walk-in clinics. This app provides immediate, reliable assistance to users experiencing health issues, helping them make informed decisions about their care.
 
-## Expanding the ESLint configuration
+## Project Intent and Idea
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Inspired by the pressing need for accessible healthcare, this project leverages machine learning to guide users on what steps to take based on their health information and symptoms. The application features a virtual assistant that interacts with users in a friendly manner, collects necessary information about their condition, and provides personalized recommendations. The assistant can advise users on whether to visit a hospital, seek emergency care, or handle minor conditions with home remedies or immediate actions for serious situations.
 
-- Configure the top-level `parserOptions` property like this:
+The ultimate goal of this project is to reduce the burden on the healthcare system and offer users a dependable resource for medical guidance, ensuring they receive the care they need without unnecessary delays.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Getting Started
+
+### Development Version
+
+To run the development version of the application, use the following command:
+
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Build and Run the Built Version
+
+To build the application and run the built version, use the following commands:
+
+```bash
+npm build
+npm start
+```
+
+## Backend Repository
+
+For more information about the backend services and APIs, please visit the [Healthcare Assistant Backend Repository]([<insert-backend-repo-link-here>](https://github.com/collSteve/coco-health-assistant-backend)). 
+
+By combining the frontend and backend components, this project aims to provide a comprehensive solution to the healthcare challenges faced by our community.
