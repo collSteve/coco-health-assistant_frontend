@@ -12,6 +12,8 @@ Inspired by the pressing need for accessible healthcare, this project leverages 
 
 The ultimate goal of this project is to reduce the burden on the healthcare system and offer users a dependable resource for medical guidance, ensuring they receive the care they need without unnecessary delays.
 
+<img width="1427" alt="Screenshot 2024-01-20 at 10 35 17 PM" src="https://github.com/user-attachments/assets/c68ebcf2-c901-4ee1-a2d2-24ce2bcedb8d">
+
 ## Getting Started
 
 ### Development Version
@@ -27,7 +29,6 @@ npm run dev
 To build the application and run the built version, use the following commands:
 
 ```bash
-npm build
 npm start
 ```
 
