@@ -34,6 +34,6 @@ npm start
 
 ## Backend Repository
 
-For more information about the backend services and APIs, please visit the [Healthcare Assistant Backend Repository]([<insert-backend-repo-link-here>](https://github.com/collSteve/coco-health-assistant-backend)). 
+For more information about the backend services and APIs, please visit the [Healthcare Assistant Backend Repository](https://github.com/collSteve/coco-health-assistant-backend). 
 
 By combining the frontend and backend components, this project aims to provide a comprehensive solution to the healthcare challenges faced by our community.
